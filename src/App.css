@@ -1,0 +1,73 @@
+body{
+    
+    background: url(/public//img/Burger.png) 370px 10px no-repeat, #191411;
+    background-size: 70%;
+    color: #ffffff;
+    
+}
+
+
+
+/* Navbar */
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+.navbar-navbar{
+    display: flex;
+    gap: 30px;
+}
+.link-nav1{
+    text-decoration: none;
+    color: #ffffffb9;
+}
+.link-nav{
+    text-decoration: none;
+    color: #ffffff;
+}
+.dollor{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid ;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+/* Home */
+.home-cont{
+    width: 536px;
+    height: 358px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.home-text{
+    font-size: 80px;
+    
+}
+.button1{
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    border-radius: 15px;
+    background-color: red;
+}
+.button2{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: rgb(207, 187, 4);
+    border-radius: 10px;
+}
