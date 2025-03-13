@@ -1,10 +1,11 @@
 body{
-    
-    background: url(/public//img/Burger.png) 370px 10px no-repeat, #191411;
-    background-size: 70%;
+    background: url(/public/img/olov.png) no-repeat,url(/public/img/olov2.png) 100% 0 no-repeat  ,#191411;
+    background-size: 38%, 30%;
     color: #ffffff;
     
+
 }
+
 
 
 
@@ -15,7 +16,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 40px;
+    margin-top: 40px;
 }
 .navbar-navbar{
     display: flex;
@@ -46,11 +47,17 @@ body{
 
 
 /* Home */
+.home{
+    height: 86vh;
+    background: url(/public//img/Burger.png) 370px 0px no-repeat;
+    background-size: 70%;
+    overflow: hidden;
+}
 .home-cont{
     width: 536px;
     height: 358px;
     margin-left: 200px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 .home-text{
     font-size: 80px;
@@ -70,4 +77,33 @@ body{
     border: none;
     background-color: rgb(207, 187, 4);
     border-radius: 10px;
+}
+
+
+
+/* menu */
+.menu-cont{
+    width: 100%;
+}
+.menu-text{
+    font-size: 64px;
+    text-align: center;
+}
+.card{
+    width: 384px;
+    height: 564px;
+    background-color: #211a16;
+    border-radius: 12px;
+    padding: 40px;
+    border: 0.5px solid #75757590;
+}
+.menu-button{
+    width: 182px;
+    height: 52px;
+    background-color: rgb(213, 147, 5);
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    color: #ffff;
+    margin: 0 auto;
+    margin-top: 15px;
 }
